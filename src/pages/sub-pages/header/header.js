@@ -1,15 +1,16 @@
 import React from 'react';
+import "./header.scss";
 
 const Header = () => {
     return (
-        <React.Fragment>
-            <div>
+        <div className='test'>
+            <div className='header'>
                 Martyn Robotham
             </div>
-            <div>
+            <div className='sub-header'>
                 UI Developer with full stack experience
             </div>
-        </React.Fragment>
+        </div>
     );
 };
 

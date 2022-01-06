@@ -4,7 +4,7 @@ import Experience from "./sub-pages/experience";
 import History from "./sub-pages/history";
 import Contact from "./sub-pages/contact";
 import "./primary.scss";
-import Header from "./sub-pages/header";
+import Header from "./sub-pages/header/header";
 
 const Primary = () => {
     return (
