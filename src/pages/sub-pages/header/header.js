@@ -4,12 +4,8 @@ import "./header.scss";
 const Header = () => {
     return (
         <div className='test'>
-            <div className='header'>
-                Martyn Robotham
-            </div>
-            <div className='sub-header'>
-                UI Developer with full stack experience
-            </div>
+            <h1>Martyn Robotham</h1>
+            <h2>UI Developer with full stack experience</h2>
         </div>
     );
 };

@@ -1,16 +1,29 @@
 .test {
-  background-image: url("../../../images/home-background.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
   height: 80vh;
+
+  &::before {
+    content: "";
+    background-image: url("../../../images/home-background.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 11vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.75;
+    height: 84.75vh;
+  }
 }
 
-.header {
-  font-size: 5rem;
-  font-weight: bold;
+h1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 4.5rem;
+  line-height: 0.9;
 }
-
-.sub-header {
-  font-size: 2rem;
-  font-weight: lighter;
-}
+ h2 {
+   position: relative;
+   font-size: 2rem;
+   font-weight: lighter;
+ }

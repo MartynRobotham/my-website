@@ -9,7 +9,7 @@ import Header from "./sub-pages/header/header";
 const Primary = () => {
     return (
         <React.Fragment>
-            <div>
+            <div className='navigation'>
                 <li>
                     <a href='#home'>Home</a>
                     <a href='#apple'>About</a>

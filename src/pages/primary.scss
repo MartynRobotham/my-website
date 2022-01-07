@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 html {
   scroll-behavior: smooth;
+  font-family: 'Roboto+Condensed', sans-serif;
+}
+
+.navigation {
+  height: 8vh;
+  background-color: aquamarine;
 }
 
 .about {
