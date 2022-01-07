@@ -13,11 +13,23 @@ body {
   height: 8vh;
   background-color: #EDF5E1;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto 5%;
+  grid-template-columns: repeat(6, auto);
 }
 
 .header-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  color: #05386b;
+  text-align: center;
+  line-height: 8vh;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .icon-item {
+    background-image: url("../images/favicon/icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 8vw;
+  }
 }
 
 .navigation {

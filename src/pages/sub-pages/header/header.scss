@@ -21,13 +21,20 @@ h1 {
   color: #05386b;
   font-size: 4.5rem;
   line-height: 0.9;
+  padding-left: 2vw;
 }
  h2 {
    position: relative;
    font-size: 2rem;
    font-weight: lighter;
    color: #05386b;
+   padding-left: 2vw;
  }
+
+ p {
+   padding: 2vw;
+ }
+
 
  // Colour theme palette. Have white text on colour sections and these colour fonts on white sections
  // #05386b;
