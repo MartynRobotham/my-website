@@ -1,7 +1,7 @@
 import React from 'react';
 import About from "./sub-pages/about";
+import Portfolio from "./sub-pages/portfolio";
 import Experience from "./sub-pages/experience";
-import History from "./sub-pages/history";
 import Contact from "./sub-pages/contact";
 import "./primary.scss";
 import Header from "./sub-pages/header/header";
@@ -9,31 +9,34 @@ import Header from "./sub-pages/header/header";
 const Primary = () => {
     return (
         <React.Fragment>
-            <div className='navigation'>
-                <li>
-                    <a href='#home'>Home</a>
-                    <a href='#apple'>About</a>
-                    <a href='#banana'>Work</a>
-                    <a href='#mango'>Portfolio</a>
-                    <a href='#contact'>Contact</a>
-                </li>
-            </div>
+            {/*<div className='navigation'>*/}
+                <div className='header-grid'>
+                    <div className='header-item'>LOGO</div>
+                    <div className='header-item'></div>
+                    <a className='header-item' href='#home'>Home</a>
+                    <a className='header-item' href='#about'>About</a>
+                    <a className='header-item' href='#experience'>Work</a>
+                    <a className='header-item' href='#portfolio'>Portfolio</a>
+                    <a className='header-item' href='#contact'>Contact</a>
+                    <div className='header-item'></div>
+                </div>
+            {/*</div>*/}
             <div id='home'>
-                <Header />
+                <Header/>
             </div>
-            <div id='apple'>
+            <div id='about'>
                 <div className='about'>
                     <About/>
                 </div>
             </div>
-            <div id='banana'>
-                <div className='history'>
-                    <History/>
-                </div>
-            </div>
-            <div id='mango'>
+            <div id='experience'>
                 <div className='experience'>
                     <Experience/>
+                </div>
+            </div>
+            <div id='portfolio'>
+                <div className='portfolio'>
+                    <Portfolio/>
                 </div>
             </div>
             <div id='contact'>

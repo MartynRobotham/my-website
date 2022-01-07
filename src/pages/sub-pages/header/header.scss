@@ -7,18 +7,18 @@
     background-position: top;
     background-repeat: no-repeat;
     position: absolute;
-    top: 11vh;
+    top: 8vh;
     right: 0;
     bottom: 0;
     left: 0;
     opacity: 0.75;
-    height: 84.75vh;
+    height: 85vh;
   }
 }
 
 h1 {
   position: relative;
-  color: #ffffff;
+  color: #05386b;
   font-size: 4.5rem;
   line-height: 0.9;
 }
@@ -26,4 +26,12 @@ h1 {
    position: relative;
    font-size: 2rem;
    font-weight: lighter;
+   color: #05386b;
  }
+
+ // Colour theme palette. Have white text on colour sections and these colour fonts on white sections
+ // #05386b;
+ // 379863;
+ // 5CDB95;
+ // 8EE4AF;
+ // EDF5E1
