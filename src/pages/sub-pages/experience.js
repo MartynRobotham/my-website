@@ -1,12 +1,13 @@
 import React from 'react';
+import Carousel from "./carousel/carousel";
 
 const Experience = () => {
 
     return (
         <React.Fragment>
-            <span>Experience to go here</span>
+            <Carousel/>
         </React.Fragment>
-    );
+);
 };
 
 export default Experience;
