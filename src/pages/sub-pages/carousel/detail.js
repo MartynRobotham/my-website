@@ -3,10 +3,15 @@ import "./detail.scss";
 
 const Detail = (props) => {
     return (
-        <div className='content'>
-            <p>{props.position} at {props.company}</p>
-            <p>{props.description}</p>
-        </div>
+        <React.Fragment>
+            <div className='content'>
+                <p>{props.position} at {props.company}</p>
+                <p className='date'>May 2021 - Present</p>
+            </div>
+            <div>
+                <p>{props.description}</p>
+            </div>
+        </React.Fragment>
     );
 };
 

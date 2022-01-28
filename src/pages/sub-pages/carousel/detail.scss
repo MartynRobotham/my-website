@@ -1,3 +1,11 @@
-.content p {
-  padding: 0.5vw;
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  p {
+    padding: 0.5vw;
+  }
+}
+
+.date {
+  text-align: right;
 }
