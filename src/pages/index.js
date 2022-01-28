@@ -10,7 +10,6 @@ const Index = () => {
     return (
         <React.Fragment>
             <div className='header-grid'>
-                <div className='icon-item'/>
                 <a className='header-item' href='#home'>Home</a>
                 <a className='header-item' href='#about'>About</a>
                 <a className='header-item' href='#experience'>Work</a>
