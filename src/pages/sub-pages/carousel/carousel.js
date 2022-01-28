@@ -13,6 +13,7 @@ import SwipeableViews from 'react-swipeable-views';
 import {autoPlay} from 'react-swipeable-views-utils';
 import Detail from "./detail";
 import {jobHistory} from "./jobHistory";
+import "./carousel.scss";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
