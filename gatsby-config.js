@@ -4,7 +4,7 @@ module.exports = {
         title: "personal-website",
         icon: "src/images/favicon/favicon.ico"
     },
-    plugins: ["gatsby-plugin-sass", {
+    plugins: ["gatsby-plugin-sass", `gatsby-plugin-fontawesome-css`, {
         resolve: `gatsby-plugin-manifest`,
         options: {
             icon: "src/images/favicon/icon.png",

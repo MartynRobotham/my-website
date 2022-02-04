@@ -1,5 +1,13 @@
 .test {
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
+
+  p {
+    position: relative;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    font-size: 2rem;
+  }
 
   &::before {
     content: "";
@@ -23,23 +31,24 @@ h1 {
   line-height: 0.9;
   padding-left: 2vw;
 }
- h2 {
-   position: relative;
-   font-size: 2rem;
-   font-weight: lighter;
-   color: #05386b;
-   padding-left: 2vw;
- }
 
- p {
-   padding: 2vw;
-   color: #05386b;
- }
+h2 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #05386b;
+  padding-left: 2vw;
+}
+
+p {
+  padding: 2vw;
+  color: #05386b;
+}
 
 
- // Colour theme palette. Have white text on colour sections and these colour fonts on white sections
- // #05386b;
- // 379863;
- // 5CDB95;
- // 8EE4AF;
- // EDF5E1
+// Colour theme palette. Have white text on colour sections and these colour fonts on white sections
+// #05386b;
+// 379863;
+// 5CDB95;
+// 8EE4AF;
+// EDF5E1
