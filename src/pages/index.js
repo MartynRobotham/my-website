@@ -9,6 +9,7 @@ import Header from "./sub-pages/header/header";
 const Index = () => {
     return (
         <React.Fragment>
+            <title>Martyn Robotham Website</title>
             <div className='header-grid'>
                 <a className='header-item' href='#home'>Home</a>
                 <a className='header-item' href='#about'>About</a>

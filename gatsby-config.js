@@ -11,7 +11,7 @@ module.exports = {
             name: "Martyn Robotham Website",
             short_name: "My Website",
             description: "My personal website",
-            startUrl: '/',
+            start_url: '/',
             background_color: `#8EE4AF`,
             theme_color: `#EDF5E1`,
             display: 'standalone',
@@ -25,16 +25,31 @@ module.exports = {
                     src: `src/images/favicon/android-chrome-512x512.png`,
                     sizes: `512x512`,
                     type: `image/png`
+                },
+                {
+                    src: "src/images/favicon/apple-touch-icon.png",
+                    sizes: "180x180",
+                    type: "image/png"
+                },
+                {
+                    src: "src/images/favicon/favicon-16x16.png",
+                    sizes: "16x16",
+                    type: "image/png"
+                },
+                {
+                    src: "src/images/favicon/favicon-32x32.png",
+                    sizes: "32x32",
+                    type: "image/png"
                 }
             ]
         },
     },
         `gatsby-plugin-offline`
-    //     {
-    //     resolve: `gatsby-plugin-offline`,
-    //     options: {
-    //         precachePages: [`/index`],
-    //     },
-    // },
+        //     {
+        //     resolve: `gatsby-plugin-offline`,
+        //     options: {
+        //         precachePages: [`/index`],
+        //     },
+        // },
     ],
 };
