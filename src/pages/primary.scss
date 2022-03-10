@@ -82,17 +82,14 @@ body {
 .one {
   grid-column: 1;
   grid-row: 1;
-  border: 1px solid blue;
 }
 .two {
   grid-column: 2;
   grid-row: 1;
-  border: 1px solid yellow;
 }
 .three {
   grid-column: 3;
   grid-row: 1;
-  border: 1px solid green;
 }
 
 @media only screen and (max-width: 768px) {
@@ -105,16 +102,13 @@ body {
   .one {
     grid-column: 1;
     grid-row: 1;
-    border: 1px solid red;
   }
   .two {
     grid-column: 1;
     grid-row: 2;
-    border: 1px solid pink;
   }
   .three {
     grid-column: 1;
     grid-row: 3;
-    border: 1px solid cyan;
   }
 }

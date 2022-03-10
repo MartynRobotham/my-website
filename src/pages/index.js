@@ -2,7 +2,7 @@ import React from 'react';
 import About from "./sub-pages/about";
 import Portfolio from "./sub-pages/portfolio";
 import Experience from "./sub-pages/experience";
-import Contact from "./sub-pages/contact";
+import Contact from "./sub-pages/contact/contact";
 import "./primary.scss";
 import Header from "./sub-pages/header/header";
 

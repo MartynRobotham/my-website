@@ -4,6 +4,7 @@ import "../primary.scss";
 const Portfolio = () => {
     return (
         <React.Fragment>
+            <h2>Other Projects</h2>
             <div className="portfolio-grid">
                 <div className="one">
                     <h4>This website</h4>
