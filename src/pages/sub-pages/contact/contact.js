@@ -11,10 +11,18 @@ const Contact = () => {
                 <span>© {(new Date().getFullYear())} Martyn Robotham</span>
             </div>
             <div className={'icons'}>
-                <FontAwesomeIcon className={'icon'} icon={faEnvelope} title={'Email'}/>
-                <FontAwesomeIcon className={'icon'} icon={faGithub} title={'GitHub'}/>
-                <FontAwesomeIcon className={'icon'} icon={faLinkedin} title={'LinkedIn'}/>
-                <FontAwesomeIcon className={'icon'} icon={faStackOverflow} title={'Stack Overflow'}/>
+                <a href={'mailto:martyn_robotham@hotmail.co.uk'}>
+                    <FontAwesomeIcon className={'icon'} icon={faEnvelope} title={'Email'}/>
+                </a>
+                <a href={'https://github.com/MartynRobotham'}>
+                    <FontAwesomeIcon className={'icon'} icon={faGithub} title={'GitHub'}/>
+                </a>
+                <a href={'https://www.linkedin.com/in/martyn-robotham-21617a87/'}>
+                    <FontAwesomeIcon className={'icon'} icon={faLinkedin} title={'LinkedIn'}/>
+                </a>
+                <a href={'https://stackoverflow.com/users/6200847/martyn93'}>
+                    <FontAwesomeIcon className={'icon'} icon={faStackOverflow} title={'Stack Overflow'}/>
+                </a>
             </div>
         </div>
     );
