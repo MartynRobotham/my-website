@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpersonal_website=self.webpackChunkpersonal_website||[]).push([[837],{8955:function(e,t,n){n.r(t);var a=n(7294);t.default=function(e){return a.createElement(a.Fragment,null,a.createElement("div",{className:"content"},a.createElement("p",null,e.position," at ",e.company),a.createElement("p",{className:"date"},e.duration)),a.createElement("div",null,a.createElement("p",null,e.description)))}}}]);
+//# sourceMappingURL=component---src-pages-sub-pages-carousel-detail-js-6c70aaa9d32578f6df3d.js.map
