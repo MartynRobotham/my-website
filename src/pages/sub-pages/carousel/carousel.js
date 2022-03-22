@@ -114,7 +114,7 @@ function Carousel() {
             </AutoPlaySwipeableViews>
             {/*TODO: Override styling as will eventually remove mat UI and make no additional plugin*/}
             <MobileStepper
-                style={{backgroundColor: 'transparent'}}
+                style={{backgroundColor: 'transparent', color: '#05386b'}}
                 steps={maxSteps}
                 position="static"
                 activeStep={activeStep}
@@ -126,9 +126,9 @@ function Carousel() {
                             disabled={activeStep === maxSteps - 1}
                         >
                             {theme.direction === 'rtl' ? (
-                                <KeyboardArrowLeft/>
+                                <KeyboardArrowLeft />
                             ) : (
-                                <KeyboardArrowRight/>
+                                <KeyboardArrowRight />
                             )}
                         </Button>
                         <Button
