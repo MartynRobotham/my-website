@@ -121,6 +121,7 @@ function Carousel() {
                 nextButton={
                     <React.Fragment>
                         <Button
+                            color={'#05386b'}
                             size="small"
                             onClick={handleNext}
                             disabled={activeStep === maxSteps - 1}
@@ -134,12 +135,12 @@ function Carousel() {
                         <Button
                             onClick={changeCarouselState}>
                             {/*// TODO: Change MUI Icons to font awesome free icons -> try to remove as much MUI and have vanilla as possible*/}
-                            <Typography>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
+                            <Typography color={'#05386b'}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
                         </Button>
                     </React.Fragment>
                 }
                 backButton={
-                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+                    <Button color={'#05386b'} size="small" onClick={handleBack} disabled={activeStep === 0}>
                         {theme.direction === 'rtl' ? (
                             <KeyboardArrowRight/>
                         ) : (
