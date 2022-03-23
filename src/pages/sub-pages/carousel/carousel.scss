@@ -1,7 +1,11 @@
 .MuiMobileStepper-dotActive {
-  background-color:  #05386b;
+  background-color:  #05386b !important;
   }
 
 .MuiButton-root {
-  color: #05386b;
+  color: #05386b !important;
+}
+
+.Mui-disabled {
+  color: grey !important;
 }
