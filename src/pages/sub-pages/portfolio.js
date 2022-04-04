@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <div className="two">
                     <h4>Blood donation project</h4>
                     <p>A side project that gives a detailed history of my blood donations</p>
-                    <a href='https://blood-ibnhsa.martynrobotham.co.uk/'>Interested? Click here to visit</a>
+                    <a href='https://joyful-croquembouche-92ee5d.netlify.app/'>Interested? Click here to visit</a>
                 </div>
                 <div className="three">
                     <h4>Open Source contributions</h4>
