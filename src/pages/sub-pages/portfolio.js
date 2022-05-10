@@ -8,7 +8,7 @@ const Portfolio = () => {
             <div className="portfolio-grid">
                 <div className="one">
                     <h4>This website</h4>
-                    <p>I have created this website using a range of technologies, primarily as a Gastsby PWA</p>
+                    <p>I have created this website using a range of technologies, primarily as a Gatsby PWA</p>
                     <a href='https://www.gatsbyjs.com/'>Interested? Click here to visit</a>
                 </div>
                 <div className="two">
