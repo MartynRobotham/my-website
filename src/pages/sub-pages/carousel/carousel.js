@@ -20,7 +20,7 @@ const jobHistory = [
         position: 'UI Developer',
         company: 'ATS Global (Atlas)',
         duration: 'May 2021 - Present',
-        description: 'Using NX.dev & single SPA, my main duties are to implement bug fixes and new features onto the Atlas Play web application, which helps increase productivity within manufacturing, but has also been used within other industries. I use a variety of front-end technologies such as Angular, React, GraphQL, Apollo & more to continually develop and enhance the Atlas Play application. I have also implemented features that communicate with existing and new APIs, build new features into the application & maintain the existing micro front end web applications.'
+        description: 'Using NX.dev & single SPA, my main duties are to implement bug fixes and new features onto the Atlas Play web application, which helps increase productivity within a wide range of industries and skill sets. I use a variety of front-end technologies such as Angular, React, GraphQL, Apollo, Material UI & more to continually develop and enhance Atlas Play & Atlas Optimise Applications. I have also implemented features that communicate with existing and new APIs, build new features into the application & maintain the existing micro front end web applications.'
     },
     {
         position: 'Full Stack Developer',
@@ -107,7 +107,7 @@ function Carousel() {
                 {jobHistory.map((step, index) => (
                     <div style={{minHeight: '25vh'}} key={step.label}>
                         {Math.abs(activeStep - index) <= 2 ? (
-                            <Detail {...step} />
+                            <Detail key={step.label} {...step} />
                         ) : null}
                     </div>
                 ))}
@@ -132,10 +132,10 @@ function Carousel() {
                             )}
                         </Button>
                         <Button
-                            style={{color: '#05386b'}}
+                            style={{color: '#3A4249'}}
                             onClick={changeCarouselState}>
                             {/*// TODO: Change MUI Icons to font awesome free icons -> try to remove as much MUI and have vanilla as possible*/}
-                            <Typography style={{color: '#05386b'}}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
+                            <Typography style={{color: '#3A4249'}}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
                         </Button>
                     </React.Fragment>
                 }

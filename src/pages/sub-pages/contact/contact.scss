@@ -1,7 +1,9 @@
+$base-grey: #3A4249;
+
 .footer {
   padding: 1vw !important;
   font-size: 1rem;
-  color: #05386b;
+  color: $base-grey;
   display: flex;
   flex-wrap: nowrap;
 }

@@ -1,3 +1,11 @@
+//NEW COLOUR SCHEME;
+$base-grey: #3A4249;
+$primary-pink: #F9537B;
+$secondary-pink: #FB8AA4;
+$light-green: #A1D8CE;
+$medium-green: #4DB4A3;
+$dark-green: #009177;
+
 .test {
   min-height: 80vh;
   height: auto;
@@ -25,12 +33,12 @@
 }
 
 a {
-  color: #05386b;
+  color: $base-grey;
 }
 
 h1 {
   position: relative;
-  color: #05386b;
+  color: $base-grey;
   font-size: 4.5rem;
   line-height: 0.9;
   padding-left: 2vw;
@@ -40,18 +48,18 @@ h2 {
   position: relative;
   font-size: 2rem;
   font-weight: lighter;
-  color: #05386b;
+  color: $base-grey;
   padding-left: 2vw;
 }
 
 h4 {
-  color: #05386b;
+  color: $base-grey;
   padding-left: 2vw;
 }
 
 p {
   padding: 2vw;
-  color: #05386b;
+  color: $base-grey;
 }
 
 .icon-grid {
@@ -71,11 +79,3 @@ p {
     justify-self: end;
   }
 }
-
-
-// Colour theme palette. Have white text on colour sections and these colour fonts on white sections
-// #05386b;
-// 379863;
-// 5CDB95;
-// 8EE4AF;
-// EDF5E1
