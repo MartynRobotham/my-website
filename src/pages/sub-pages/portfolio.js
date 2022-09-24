@@ -17,9 +17,15 @@ const Portfolio = () => {
                     <a href='https://joyful-croquembouche-92ee5d.netlify.app/'>Interested? Click here to visit</a>
                 </div>
                 <div className="three">
+                    <h4>Wedding</h4>
+                    <p>A project that was created to let us know which guests are attending & show a full itinerary of
+                        the day</p>
+                </div>
+                <div className="four">
                     <h4>Open Source contributions</h4>
                     <p>I have made small contributions to open source projects, including single-spa.js</p>
-                    <a href='https://github.com/single-spa/single-spa.js.org/graphs/contributors'>Interested? Click here to visit</a>
+                    <a href='https://github.com/single-spa/single-spa.js.org/graphs/contributors'>Interested? Click here
+                        to visit</a>
                 </div>
             </div>
         </React.Fragment>
