@@ -82,5 +82,11 @@ p {
 
   .end-item {
     justify-self: end;
+    grid-column: 2;
+  }
+
+  .start-item {
+    justify-self: start;
+    grid-column: 1;
   }
 }
