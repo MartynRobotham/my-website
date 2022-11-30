@@ -13,6 +13,7 @@ module.exports = {
             short_name: "My Website",
             description: "My personal website",
             start_url: './',
+            scope: "./",
             background_color: `#8EE4AF`,
             theme_color: `#EDF5E1`,
             display: 'standalone',
