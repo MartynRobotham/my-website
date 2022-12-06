@@ -24,9 +24,8 @@ const Portfolio = () => {
                 </div>
                 <div className="four">
                     <h4>Wedding</h4>
-                    <p className='no-interest'>A project that was created to let us know which guests are attending &
-                        show a full itinerary of
-                        the day</p>
+                    <p className='no-interest'>A small wedding management application that was created to allow guests to confirm
+                    their attendance and see a full itinerary of the day at any time</p>
                 </div>
             </div>
         </React.Fragment>
