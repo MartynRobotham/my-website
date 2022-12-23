@@ -9,8 +9,8 @@ module.exports = {
             description: "My personal website and portfolio showing off my development experience",
             start_url: "./",
             scope: ".",
-            background_color: "#8EE4AF",
-            theme_color: "#EDF5E1",
+            background_color: "#FFFFEA",
+            theme_color: "#FFFFEA",
             display: "standalone"
         },
     }, `gatsby-plugin-offline`],
