@@ -40,22 +40,38 @@ const Navbar = () => {
                                 vertical: 'bottom',
                                 horizontal: 'left',
                             }}
+                            MenuListProps={{
+                                'aria-labelledby': 'fade-button'
+                            }}
                             keepMounted
                             transformOrigin={{
                                 vertical: 'top',
                                 horizontal: 'left',
                             }}
+                            PaperProps={{
+                                style: {
+                                    marginTop: '1rem',
+                                    overflow: 'hidden',
+                                    width: '100vw',
+                                }
+                            }}
                             open={Boolean(anchorElNav)}
                             onClose={handleCloseNavMenu}
                             sx={{
-                                display: {xs: 'block', md: 'none'},
+                                display: {xs: 'block', md: 'none'}
                             }}
                         >
-                            {/*TODO: Add full menu styling in here when doing this*/}
                             <Box>
                                 {pages.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                        <Link style={{color: theme.palette.info.main, textDecoration: 'none'}} href={`#${page.toLowerCase()}`} textAlign="center">{page}</Link>
+                                        <Link
+                                            style={{
+                                                color: theme.palette.info.main,
+                                                paddingTop: '0.5rem',
+                                                paddingBottom: '0.5rem',
+                                                textDecoration: 'none'
+                                            }}
+                                            href={`#${page.toLowerCase()}`} textAlign="center">{page}</Link>
                                     </MenuItem>
                                 ))}
                             </Box>
