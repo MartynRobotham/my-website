@@ -132,10 +132,10 @@ function Carousel() {
                             )}
                         </Button>
                         <Button
-                            style={{color: '#3A4249'}}
+                            style={{color: '#F92C85'}}
                             onClick={changeCarouselState}>
                             {/*// TODO: Change MUI Icons to font awesome free icons -> try to remove as much MUI and have vanilla as possible*/}
-                            <Typography style={{color: '#3A4249'}}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
+                            <Typography style={{color: '#F92C85'}}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
                         </Button>
                     </React.Fragment>
                 }

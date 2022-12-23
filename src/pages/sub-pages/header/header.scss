@@ -1,8 +1,9 @@
 //NEW COLOUR SCHEME;
-$base-grey: #3A4249;
+$base-text: #F92C85;
+$alternate-text: #5EBEC4;
 $primary-pink: #F9537B;
 $secondary-pink: #FB8AA4;
-$light-green: #A1D8CE;
+$base-colour-back: #FDF5DF;
 $medium-green: #4DB4A3;
 $dark-green: #009177;
 
@@ -27,18 +28,18 @@ $dark-green: #009177;
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.75;
+    opacity: 0.55;
     height: 85vh;
   }
 }
 
 a {
-  color: $base-grey;
+  color: $base-text;
 }
 
 h1 {
   position: relative;
-  color: $base-grey;
+  color: $base-text;
   font-size: 4.5rem;
   line-height: 0.9;
   padding-left: 2vw;
@@ -48,23 +49,27 @@ h2 {
   position: relative;
   font-size: 2rem;
   font-weight: lighter;
-  color: $base-grey;
+  color: $base-text;
   padding-left: 2vw;
 }
 
+.alternate-text {
+  color: $alternate-text;
+}
+
 h4 {
-  color: $base-grey;
+  color: $base-text;
   padding-left: 1vw;
 }
 
 p {
   padding: 1vw 2vw;
-  color: $base-grey;
+  color: $base-text;
 }
 
 .grid-text {
   padding: 1vw;
-  color: $base-grey;
+  color: $base-text;
 }
 
 .icon-grid {
