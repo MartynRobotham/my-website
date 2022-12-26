@@ -21,14 +21,14 @@ export const theme = createTheme({
             main: '#F9537B'
         },
         info: {
-            main: '#F92C85'
+            main: '#000000'
         }
     },
     components: {
         MuiAppBar: {
             styleOverrides: {
                 colorDefault: {
-                    backgroundColor: '#FDF5DF'
+                    backgroundColor: '#ABF62D'
                 }
 
             }

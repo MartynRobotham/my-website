@@ -5,7 +5,7 @@ const Detail = (props) => {
     return (
         <React.Fragment>
             <div className='content'>
-                <p>{props.position} at {props.company}</p>
+                <p><b>{props.position} at {props.company}</b></p>
                 <p className='date'>{props.duration}</p>
             </div>
             <div>
