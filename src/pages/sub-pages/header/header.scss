@@ -7,11 +7,11 @@ $base-colour-back: #FDF5DF;
 $medium-green: #4DB4A3;
 $dark-green: #009177;
 
-.temp {
+.gap-reduction {
   margin-top: -3.25rem;
 }
 
-.test {
+.main-content {
   min-height: 80vh;
   height: auto;
 
@@ -75,22 +75,4 @@ p {
   padding: 0;
   display: grid;
   grid-template-columns: auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .icon-grid {
-    padding: 0;
-    display: grid;
-    grid-template-columns: auto;
-  }
-
-  .end-item {
-    justify-self: end;
-    grid-column: 2;
-  }
-
-  .start-item {
-    justify-self: start;
-    grid-column: 1;
-  }
 }

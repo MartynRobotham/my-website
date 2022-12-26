@@ -24,9 +24,8 @@ const Header = () => {
                     minWidth: 600.0,
                     scale: 1.0,
                     scaleMobile: 1.0,
+                    color: 0xd6a3fb,
                     backgroundColor: 0xabf62d
-                    // color1: "#0000ff",
-                    // color2: "#ffffff"
                 })
             );
         }
@@ -37,10 +36,10 @@ const Header = () => {
 
     return (
         <React.Fragment>
-            <div ref={vantaRef} className={'temp'}>
-                <div className='test'>
+            <div ref={vantaRef} className={'gap-reduction'}>
+                <div className='main-content'>
                     <h1>Martyn Robotham</h1>
-                    <h2>UI Developer with full stack experience</h2>
+                    <h2>UI Developer with over seven years full stack experience</h2>
                     <div className={'icon-grid'}>
                         <p className={'start-item'}>
                             <a href={'mailto:martyn_robotham@hotmail.co.uk'}>
