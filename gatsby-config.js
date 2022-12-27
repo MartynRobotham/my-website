@@ -13,5 +13,10 @@ module.exports = {
             theme_color: "#ABF62D",
             display: "standalone"
         },
-    }, `gatsby-plugin-offline`],
+    }, {
+        resolve: 'gatsby-plugin-html-attributes',
+        options: {
+            lang: 'en'
+        }
+    }`gatsby-plugin-offline`],
 };
