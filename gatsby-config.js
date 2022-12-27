@@ -18,5 +18,5 @@ module.exports = {
         options: {
             lang: 'en'
         }
-    }`gatsby-plugin-offline`],
+    }, `gatsby-plugin-offline`],
 };
