@@ -121,26 +121,30 @@ function Carousel() {
                 nextButton={
                     <React.Fragment>
                         <Button
+                            aria-label={'go to different job'}
                             size="small"
                             onClick={handleNext}
                             disabled={activeStep === maxSteps - 1}
                         >
                             {theme.direction === 'rtl' ? (
-                                <KeyboardArrowLeft />
+                                <KeyboardArrowLeft/>
                             ) : (
-                                <KeyboardArrowRight />
+                                <KeyboardArrowRight/>
                             )}
                         </Button>
                         <Button
+                            aria-label={'pause job history carousel'}
                             style={{color: '#000000'}}
                             onClick={changeCarouselState}>
                             {/*// TODO: Change MUI Icons to font awesome free icons -> try to remove as much MUI and have vanilla as possible*/}
-                            <Typography style={{color: '#000000'}}>{intervalSize !== pauseDuration ? <PauseIcon/> : <PlayArrowIcon/>}</Typography>
+                            <Typography style={{color: '#000000'}}>{intervalSize !== pauseDuration ? <PauseIcon/> :
+                                <PlayArrowIcon/>}</Typography>
                         </Button>
                     </React.Fragment>
                 }
                 backButton={
-                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}
+                            aria-label={'go to previous job posting'}>
                         {theme.direction === 'rtl' ? (
                             <KeyboardArrowRight/>
                         ) : (
