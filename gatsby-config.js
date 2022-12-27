@@ -10,7 +10,7 @@ module.exports = {
             start_url: "./",
             scope: ".",
             background_color: "#ABF62D",
-            theme_color: "#D6A3FB",
+            theme_color: "#ABF62D",
             display: "standalone"
         },
     }, `gatsby-plugin-offline`],

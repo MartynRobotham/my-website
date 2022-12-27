@@ -21,7 +21,6 @@ const Header = () => {
                     touchControls: true,
                     gyroControls: false,
                     minHeight: 600.0,
-                    minWidth: 600.0,
                     scale: 1.0,
                     scaleMobile: 1.0,
                     color: 0xd6a3fb,
