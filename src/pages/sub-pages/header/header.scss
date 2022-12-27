@@ -55,6 +55,21 @@ h2 {
   color: $alternate-text;
 }
 
+.about-me-profile {
+  display: flex;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me-profile {
+    display: block;
+  }
+
+  .extend-image {
+    width: 95% !important;
+  }
+}
+
 h4 {
   color: $base-text;
   padding-left: 1vw;
