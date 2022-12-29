@@ -5,7 +5,7 @@ const About = () => {
         <React.Fragment>
             <h2 className={'alternate-text'}>About me</h2>
             <div className={'about-me-profile'}>
-                <img height={'25%'} width={'20%'} className={'extend-image'} src={'../images/home-background.jpg'} alt={'my headshot'}/>
+                <img className={'extend-image'} src={'../images/headshot.jpg'} alt={'my headshot'}/>
                 <p className={'alternate-text'}>I am an experienced Application / Web Developer specialising in front
                     end development, but I also have
                     the skill set to work full stack using the .NET frameworks since 2015 - with a strong focus on
