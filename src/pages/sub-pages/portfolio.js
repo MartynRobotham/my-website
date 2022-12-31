@@ -23,7 +23,7 @@ const Portfolio = () => {
                         to visit</a>
                 </div>
                 <div className="four">
-                    <h4 className={'alternate-text'}>Wedding</h4>
+                    <h3 className={'alternate-text'}>Wedding</h3>
                     <p className='no-interest alternate-text'>A small wedding management application that was created to allow guests to confirm
                     their attendance and see a full itinerary of the day at any time</p>
                 </div>
