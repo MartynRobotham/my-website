@@ -70,6 +70,28 @@ h2 {
   }
 }
 
+.tech-assets {
+  display: none;
+}
+
+@media only screen and (min-width: 1080px) {
+  .tech-assets {
+    display: block;
+    padding: 2vw;
+  }
+}
+
+.logo-grid {
+  display: grid;
+  justify-content: space-between;
+  justify-items: center;
+  grid-gap: 1rem 0;
+}
+
+.item1 {
+  grid-column: 1 / 2;
+}
+
 h4 {
   color: $base-text;
   padding-left: 1vw;

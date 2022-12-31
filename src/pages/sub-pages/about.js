@@ -31,6 +31,29 @@ const About = () => {
                         I am always looking for ways to improve, and I am always ready to help others achieve their long
                         term
                         goals.</p>
+                    <div className={'tech-assets'}>
+                        <h3>I have multiple years experience using</h3>
+                        <div className={'logo-grid'}>
+                            <div style={{gridColumn: 1}}>
+                                <img src={'/images/logos/javascript.svg'} height={'100px'} alt={'JavaScript'}/>
+                            </div>
+                            <div style={{gridColumn: 2}}>
+                                <img src={'/images/logos/graphql.svg'} height={'100px'} alt={'GraphQL'}/>
+                            </div>
+                            <div style={{gridColumn: 3}}>
+                                <img src={'/images/logos/material-ui.svg'} height={'100px'} alt={'Material UI'}/>
+                            </div>
+                            <div>
+                                <img src={'/images/logos/mongodb.svg'} height={'100px'} alt={'Mongo DB'}/>
+                            </div>
+                            <div>
+                                <img src={'/images/logos/react.svg'} height={'100px'} alt={'React'}/>
+                            </div>
+                            <div>
+                                <img src={'/images/logos/github.svg'} height={'100px'} alt={'GitHub'}/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
