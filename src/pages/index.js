@@ -56,7 +56,7 @@ const Index = () => {
     return (
         <React.Fragment>
             <ThemeProvider theme={theme}>
-                <title>Martyn Robotham Website</title>
+                <title>Martyn Robotham - Experienced UI Developer</title>
                 <Navbar/>
                 <div id='home'>
                     <Header/>

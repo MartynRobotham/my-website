@@ -4,8 +4,8 @@ module.exports = {
     }, plugins: ["gatsby-plugin-sass", `gatsby-plugin-fontawesome-css`, {
         resolve: `gatsby-plugin-manifest`, options: {
             icon: "src/images/icon.png",
-            name: "Martyn Robotham Website - Personal Portfolio",
-            short_name: "Martyn Robotham Website",
+            name: "Martyn Robotham - Experienced UI Developer",
+            short_name: "Martyn Robotham - UI Developer",
             description: "My personal website and portfolio showing off my development experience",
             start_url: "./",
             scope: ".",
