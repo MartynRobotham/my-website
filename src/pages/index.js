@@ -7,6 +7,7 @@ import "./primary.scss";
 import Header from "./sub-pages/header/header";
 import Navbar from "./sub-pages/navbar";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
+import "@fontsource/paytone-one";
 
 // TODO: Export to isolated file, issue with module build
 export const theme = createTheme({
