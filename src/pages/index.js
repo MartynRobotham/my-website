@@ -50,6 +50,11 @@ export const theme = createTheme({
                 }
             }
         }
+    },
+    typography: {
+        allVariants: {
+            fontFamily: `"Paytone One", sans-serif`
+        }
     }
 })
 
