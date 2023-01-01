@@ -32,7 +32,7 @@ const About = () => {
                         term
                         goals.</p>
                     <div className={'tech-assets'}>
-                        <h3>I have multiple years experience using</h3>
+                        <h3>I have multiple years experience using these technologies listed below and many more</h3>
                         <div className={'logo-grid'}>
                             <div style={{gridColumn: 1}}>
                                 <img src={'/images/logos/javascript.svg'} height={'100px'} alt={'JavaScript'}/>

@@ -7,7 +7,7 @@ import "./primary.scss";
 import Header from "./sub-pages/header/header";
 import Navbar from "./sub-pages/navbar";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
-import "@fontsource/paytone-one";
+import "@fontsource/urbanist";
 
 // TODO: Export to isolated file, issue with module build
 export const theme = createTheme({
@@ -53,7 +53,7 @@ export const theme = createTheme({
     },
     typography: {
         allVariants: {
-            fontFamily: `"Paytone One", sans-serif`
+            fontFamily: `"Urbanist", sans-serif`
         }
     }
 })
