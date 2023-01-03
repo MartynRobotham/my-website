@@ -3,7 +3,7 @@ module.exports = {
         siteUrl: "https://martynrobotham.co.uk", title: "personal-website", icon: "static/images/favicon/favicon.ico"
     }, plugins: ["gatsby-plugin-sass", `gatsby-plugin-fontawesome-css`, {
         resolve: `gatsby-plugin-manifest`, options: {
-            icon: "src/images/icon.png",
+            icon: "static/images/favicon/icon.png",
             name: "Martyn Robotham - Experienced UI Developer",
             short_name: "Martyn Robotham - UI Developer",
             description: "My personal website and portfolio showing off my development experience",
