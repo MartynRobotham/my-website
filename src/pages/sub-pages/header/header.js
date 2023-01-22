@@ -37,7 +37,7 @@ const Header = () => {
         <React.Fragment>
             <div ref={vantaRef} className={'gap-reduction'}>
                 <div className='main-content'>
-                    <h1>Martyn Robotham</h1>
+                    <h1 className={'header-text'}>Martyn Robotham</h1>
                     <h2>UI Developer with over seven years full stack experience</h2>
                     <div className={'icon-grid'}>
                         <p className={'start-item'}>
