@@ -60,6 +60,12 @@ h2 {
   padding-left: 1rem;
 }
 
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 @media only screen and (max-width: 768px) {
   .about-me-profile {
     display: block;
@@ -74,11 +80,15 @@ h2 {
   display: none;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1000px) {
   .tech-assets {
     display: flex;
     flex-direction: column;
-    padding: 2vw;
+    padding: 0 2vw;
+  }
+
+  .about-me-content {
+    justify-content: space-between;
   }
 }
 
