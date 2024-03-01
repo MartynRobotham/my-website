@@ -17,9 +17,15 @@ import "./carousel.scss";
 // TODO: Move into isolated file
 const jobHistory = [
     {
+        position: 'Senior Engineer (GTM Team)',
+        company: 'Experian',
+        duration: 'July 2023 - Present',
+        description: 'Within my role, I help manage and maintain a wide variety of repositories throughout the company, implementing optimisations, AB Tests or implement new and improved features. I offer a strong focus on usability, accessibility and enhancements to help achieve the end goal of creating the most intuitive web application possible. The core technologies that I use are React, Typescript, NodeJS, Figma, Jest and other tools that work alongside these frameworks & libraries (such as HTML & CSS). I work with a wide variety of stakeholders within the business, communicating with product owners, designers, testers and other developers to help create the best application possible, through code review, testing, running stand up, retro and refinement meetings and contributing to others to help them with their work. I also manage a few developers within the team, helping them grow in their careers, running their 121 meetings and communicating with other managers on their progress.'
+    },
+    {
         position: 'UI Developer',
         company: 'ATS Global (Atlas)',
-        duration: 'May 2021 - Present',
+        duration: 'May 2021 - July 2023',
         description: 'Using NX.dev & single SPA, my main duties are to implement bug fixes and new features onto the Atlas Play web application, which helps increase productivity within a wide range of industries and skill sets. I use a variety of front-end technologies such as Angular, React, GraphQL, Apollo, Material UI & more to continually develop and enhance Atlas Play & Atlas Optimise Applications. I have also implemented features that communicate with existing and new APIs, build new features into the application & maintain the existing micro front end web applications.'
     },
     {
@@ -105,7 +111,7 @@ function Carousel() {
                 enableMouseEvents
             >
                 {jobHistory.map((step, index) => (
-                    <div style={{minHeight: '25vh'}} key={index}>
+                    <div style={{minHeight: '45vh'}} key={index}>
                         {Math.abs(activeStep - index) <= 2 ? (
                             <Detail key={step.label} {...step} />
                         ) : null}
