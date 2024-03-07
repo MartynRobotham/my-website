@@ -111,7 +111,7 @@ function Carousel() {
                 enableMouseEvents
             >
                 {jobHistory.map((step, index) => (
-                    <div style={{minHeight: '45vh'}} key={index}>
+                    <div  key={index}>
                         {Math.abs(activeStep - index) <= 2 ? (
                             <Detail key={step.label} {...step} />
                         ) : null}

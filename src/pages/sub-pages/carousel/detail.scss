@@ -12,3 +12,19 @@
   text-align: right;
   font-weight: bold;
 }
+
+.details {
+    height: 20vh;
+}
+
+@media only screen and (max-width: 1160px) {
+    .details {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .details {
+        height: 85vh;
+    }
+}
