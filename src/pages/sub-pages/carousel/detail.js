@@ -9,7 +9,7 @@ const Detail = (props) => {
                 <p className='date'>{props.duration}</p>
             </div>
             <div>
-                <p className='details'>{props.description}</p>
+                <p>{props.description}</p>
             </div>
         </React.Fragment>
     );

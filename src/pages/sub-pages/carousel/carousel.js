@@ -98,20 +98,20 @@ function Carousel() {
                 sx={{
                     display: 'flex',
                     alignItems: 'center',
-                    height: 50,
                     pl: 2,
                 }}
             >
             </Paper>
             <AutoPlaySwipeableViews
                 interval={intervalSize}
+                style={{height: "700px"}}
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                 index={activeStep}
                 onChangeIndex={handleStepChange}
                 enableMouseEvents
             >
                 {jobHistory.map((step, index) => (
-                    <div  key={index}>
+                    <div key={index}>
                         {Math.abs(activeStep - index) <= 2 ? (
                             <Detail key={step.label} {...step} />
                         ) : null}
