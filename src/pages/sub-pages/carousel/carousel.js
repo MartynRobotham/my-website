@@ -104,7 +104,7 @@ function Carousel() {
             </Paper>
             <AutoPlaySwipeableViews
                 interval={intervalSize}
-                style={{height: "700px"}}
+                style={{height: "calc(60vh - 10vw)"}}
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                 index={activeStep}
                 onChangeIndex={handleStepChange}
