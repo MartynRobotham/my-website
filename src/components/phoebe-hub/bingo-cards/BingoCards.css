@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    max-width: fit-content;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 4rem;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.grid {
+    border: 1px solid black;
+    color: black;
+    white-space: pre;
+}
+
+.tens-place-text {
+    color: black;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+
+.ones-place-text {
+    color: black;
+}
+
+.square-wrapper {
+    display: flex;
+    flex-direction: row;
+}

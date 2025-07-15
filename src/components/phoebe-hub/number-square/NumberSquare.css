@@ -1,0 +1,34 @@
+.number-square {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+    gap: 16px;
+    width: fit-content;
+}
+
+
+.number-cell {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background-color: greenyellow;
+    border: 1px solid hotpink;
+    color: black;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.tens-place-text {
+    color: black;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+
+.ones-place-text {
+    color: black;
+}
+
+.square-wrapper {
+    display: flex;
+    flex-direction: row;
+}
