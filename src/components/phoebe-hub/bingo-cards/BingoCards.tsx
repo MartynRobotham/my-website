@@ -1,4 +1,4 @@
-import './BingoCards.css';
+// import './BingoCards.css';
 
 const BingoCards = ({ highestNumber = 50, totalNumbers = 15, createCards = 6 }) => {
 
