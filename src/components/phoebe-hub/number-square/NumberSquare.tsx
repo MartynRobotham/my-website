@@ -1,4 +1,4 @@
-import '../src/bingo-cards/BingoCards.css';
+import '../bingo-cards/BingoCards.css';
 
 const NumberSquare = () => {
     const numbers = Array.from({ length: 100 }, (_, i) => i + 1);
