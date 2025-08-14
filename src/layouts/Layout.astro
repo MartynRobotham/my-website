@@ -1,10 +1,17 @@
+---
+/// <reference types="vite-plugin-pwa/info" />
+import { pwaInfo } from 'virtual:pwa-info';
+import '../pwa.ts'; // relative import — this will be bundled
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="../assets/favicon/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="../../public/assets/favicon/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
+		{pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
 		<title>Martyn Robotham | Experienced Web Developer with front end specialisms</title>
 	</head>
 	<body>
