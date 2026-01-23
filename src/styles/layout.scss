@@ -1,0 +1,30 @@
+@use "./colours" as *;
+
+body {
+  margin: 0;
+  background-color: $primary-background;
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color: $tertiary;
+}
+
+section {
+  padding: 1rem;
+
+  &:nth-child(even) {
+    background-color: $primary-background;
+
+    p {
+      color: $secondary;
+    }
+  }
+
+  &:nth-child(odd) {
+    background-color: $secondary-background;
+    color: $tertiary;
+  }
+}

@@ -1,0 +1,24 @@
+@use "../../styles/colours" as *;
+
+.navigation {
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    display: block;
+  }
+
+  a {
+    color: $tertiary;
+  }
+
+  a:link,
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: none;
+  }
+}

@@ -5,7 +5,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://MartynRobotham.github.io/my-website/', // Important for correct routing
+  site: 'https://martynrobotham.co.uk/', // Change to correct domain when ready
   outDir: './dist',
   integrations: [
       react(),
