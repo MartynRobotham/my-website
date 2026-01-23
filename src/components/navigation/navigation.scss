@@ -5,6 +5,7 @@
   ul {
     display: flex;
     justify-content: space-around;
+    padding-inline-start: 0;
   }
 
   li {
@@ -21,4 +22,24 @@
   a:visited {
     text-decoration: none;
   }
+}
+
+.wip-banner {
+  background-color: #F7F6F3;
+  color: $secondary;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+  /* Optional: Ensures it stays isolated from other elements */
+  display: block;
+  clear: both;
+  box-sizing: border-box;
+
+  p {
+    color: $secondary;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
 }
