@@ -2,14 +2,15 @@
 import "./navigation.scss";
 ---
 <div class="navigation">
-<ul>
-    <li><a href="/">About</a></li>
-    <li><a href="/">Experience</a></li>
-    <li><a href="/">Portfolio</a></li>
-    <li><a href="/blog">Blog</a></li>
-</ul>
+    <ul>
+        <li><a href={Astro.url.pathname === '/' ? '#about' : '/#about'}>About</a></li>
+        <li><a href={Astro.url.pathname === '/' ? '#experience' : '/#experience'}>Experience</a></li>
+        <li><a href={Astro.url.pathname === '/' ? '#portfolio' : '/#portfolio'}>Portfolio</a></li>
+        <li><a href="/blog">Blog</a></li>
+    </ul>
 </div>
 
 <div class="wip-banner">
-    <p>Heads up! This site is still under construction. Things may look unfinished, change without notice, or occasionally break. I'm busy with a MSc, parenting & stand up comedy so bear with!</p>
+    <p>Heads up! This site is still under construction. Things may look unfinished, change without notice, or
+        occasionally break. I'm busy with a MSc, parenting & stand up comedy so bear with!</p>
 </div>
