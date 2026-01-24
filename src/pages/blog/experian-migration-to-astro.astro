@@ -1,9 +1,111 @@
 ---
-
 import Layout from "../../layouts/Layout.astro";
 ---
 <Layout>
     <section>
         <h1>Experian Migration To Astro</h1>
+        <p>*This blog post is still a work in progress. Last updated 24th January 2026.</p>
+        <p>**Disclaimer: This blog post is not affiliated with Experian. While I am employed by Experian, this content was
+            not sponsored or paid for by the company. All opinions expressed here are entirely my own.</p>
+        <p>Better your score. Better your story. That’s the objective for people to use Experian. But people buy into
+            books at times based on the front over, and that’s the objective of the .co.uk domain. Over the time I have
+            worked at Experian I have seen the digital transformation that has taken place, with a whole new experience
+            in session, a new score and a wide array of new features. And that’s all good as the book content if you’ve
+            been given the recommendation, but the front cover is what draws the eye.
+        </p>
+        <p>
+            The domain is what contains the content to help people whether it’s directly, through chatbots or LLMs but
+            the statement is the same, when people want the information they want it quickly in a place that they can
+            trust. But the current site had been pushed to its limit on the technology it had, and it just wasn’t
+            compatible with the modern world.
+        </p>
+        <p>
+            It’s not been often in my career that I’ve been fortunate enough to work on things that have long term
+            value. I’ve built maps that target data for concerts when planning new shows, metadata to reduce insurance
+            fraud, energy saving and security products to name a few. But these are all small features in a long term
+            product that have all gone in the passage of time, whether it’s through insolvency, rewrites or modern
+            implementations. And it’s been even rarer for me to be a decision maker in the process, so for this
+            opportunity to come up for me, to design the front cover on a product used by millions, I wanted to make
+            sure it was as good as it could be.
+        </p>
+    </section>
+    <section>
+        <h2>The tech</h2>
+        <p>After looking at a few frameworks that I thought could be potential suitors for the .co.uk domain, I settled
+            on recommending Astro as the framework of choice. For people that don’t know, Astro is a framework designed
+            for content driven sites, with the benefits of server side rendering, vendor integrations and agnostic
+            framework integration through islands, with high quality performance. This allowed the content driven
+            elements of the site to be kept with speed, but also take advantage of islands (where you can use a
+            framework such as react directly inside Astro) to build more complex QOL features for customers that are
+            available for everyone.
+        </p>
+        <p>
+            There are all the other benefits of a more modern framework such as themes, MCP server integrations and
+            in-built auditing tools to improve the A11Y, to help with the MO that everyone deserves a better story. But
+            there’s also unique cases for Experian. The guide content is self-serve, and they need to be able to create
+            the content and pages with as minimal effort as possible. Using the MDX integration, templating and a
+            script, they can create a new guide within sixty seconds with SEO optimisation through the frontmatter (a
+            place in the components where you can access props and more, which you can find out about
+            <a href="https://docs.astro.build/en/basics/astro-components/">here</a>.
+        </p>
+        <p>
+            I’m a huge fan of Astro, mainly due to its simplicity, while keeping the beauty in development. Going back
+            to basics and being allowed to isolate the complexity brings the benefits of both worlds, and the agnostic
+            elements allow you to keep up to date should you decide to change your interactive JS framework. You can
+            keep the old while creating the new. As you may have told, this website you’re reading this on has been
+            redone in Astro and all built within a weekend (which is why some bits may look a bit ugly, that’s me
+            thinking about how far I want to push this over the framework itself.)
+        </p>
+    </section>
+    <section>
+        <h2>The Story</h2>
+        <p>
+            So after making Astro my recommendation we had to get business approval. And clearly there were lots of
+            questions that were going to be asked from the framework. Can it support all the things that the current
+            site can do and more, will it affect SEO. But every conversation was positive, the framework and the data
+            did the talking. The zero JS by default approach allowed a way of targeting more customers through their
+            browser choices, the speed focus and SEO optimisation removed the fears, and we got the support to rebuild
+            the site in Astro, as long as we supported dual running.
+        </p>
+        <p>
+            We reviewed the way the current site was hosted and found a way to merge the new with the old (I can’t say
+            too much here about how but in as simple terms as possible, build the new and anything that matches on an
+            old route, overwrite). And then set ourselves the ambitious target of as much as possible within six months.
+            Bear in mind we didn’t even have a component library we could use, we basically were starting from scratch
+            outside of a small POC to test our assumptions.
+        </p>
+        <p>
+            The initial focus was on guides. These take up over half the website, are templated and use the core
+            components (nav bar, footer, buttons etc.) but we had to migrate them. And it was a fear that even them
+            alone (at time of writing there are about 200 of them) was a mammoth task in itself. And what about new
+            content as well? There has to be a cut off point.
+        </p>
+        <p>
+            But I wasn’t worried, mainly because it wasn’t a question to me of ‘when can we do it by?’, but ‘how can we
+            do it as quickly as possible?’. Using some AI tools, I quickly made up a bash script that converted the old
+            template into the new but also allowed some corrections to be made with directory structure, file names and
+            the ability to take it further (could we do spell checking at the same time, flags for other content?). And
+            using the base of this, create a script that could be plugged into an AI agent to create new content guides.
+            As mentioned earlier it takes me about sixty seconds, and nearly all the time is typing in what I need, not
+            in the generation itself.
+        </p>
+        <p>
+            And currently, there is some content out there for guides that use astro. We’ve been able to minimise impact
+            through the dual running, allowing us to drip feed guides and alternate content as we need too, but the
+            ability is there to migrate and create at a speed we weren’t able to before.
+        </p>
+        <p>
+            There are other pages that we have converted, we have an island that uses google maps for increased
+            interactivity. And we can make this as detailed as we need too and it is all isolated on that island, while
+            allowing that consistency that the site never had before.
+        </p>
+        <p>
+            Truthfully, it has been a point of pride for me to be able to create something like this with the support I
+            have had. I’ve been fortunate to work with a team full of optimism, positivity and drive. A team that is
+            willing to say how far we can go as well as how far we have come. And I know where it is now may look like a
+            brand new front cover, but truthfully all we have done is have the canvas and palette ready to say not just
+            within the UK, but worldwide, this is what we can do when the right people are in the right place at the
+            right time.
+        </p>
     </section>
 </Layout>

@@ -5,7 +5,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://martynrobotham.co.uk/', // Change to correct domain when ready
+  site: 'https://martynrobotham.co.uk/',
   outDir: './dist',
   integrations: [
       react(),
@@ -21,8 +21,8 @@ export default defineConfig({
         short_name: 'App',
         start_url: '/',
         display: 'standalone',
-        background_color: '#ffffff',
-        theme_color: '#ffffff',
+        background_color: '#FFE4F1',
+        theme_color: '#FFE4F1',
         icons: [
           {
             src: 'assets/favicon/android-chrome-192x192.png',

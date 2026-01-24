@@ -5,6 +5,7 @@ import '../pwa.ts';
 import Navigation from "../components/navigation/Navigation.astro"; // relative import — this will be bundled
 
 import "@/styles/layout.scss";
+import Footer from "../components/footer/Footer.astro";
 ---
 
 <!doctype html>
@@ -28,5 +29,6 @@ import "@/styles/layout.scss";
 		<Navigation />
 	</section>
 		<slot />
+	<Footer />
 	</body>
 </html>

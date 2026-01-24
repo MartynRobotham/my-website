@@ -1,0 +1,21 @@
+---
+import "./carousel.scss";
+
+const {slides} = Astro.props;
+
+---
+
+<div class="slider">
+    <div class="slides">
+        {slides.map((num: number) => (
+                <div id={`slide-${num}`}>
+                    {num}
+                </div>
+        ))}
+    </div>
+
+    {slides.map((num: number) => (
+            <a href={`#slide-${num}`}>{num}</a>
+    ))}
+
+</div>

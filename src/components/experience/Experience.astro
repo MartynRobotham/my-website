@@ -1,20 +1,8 @@
 ---
 import "./experience.scss";
+import Carousel from "../carousel/Carousel.astro";
 const slides = [1, 2, 3, 4, 5];
 
 ---
 
-<div class="slider">
-    <div class="slides">
-        {slides.map((num) => (
-                <div id={`slide-${num}`}>
-                    {num}
-                </div>
-        ))}
-    </div>
-
-    {slides.map((num) => (
-            <a href={`#slide-${num}`}>{num}</a>
-    ))}
-
-</div>
+<Carousel slides={slides} />
