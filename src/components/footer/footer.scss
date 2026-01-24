@@ -3,6 +3,7 @@
 .footer-container {
   padding: 1rem;
   background-color: $secondary-background;
+  margin-top: auto;
 
   &:nth-child(even) {
     background-color: $secondary-background;
