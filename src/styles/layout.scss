@@ -40,4 +40,8 @@ section {
   &:last-of-type {
     border-radius: 0 1.75rem 0 0;
   }
+
+  &:nth-last-of-type(2):has(+ section:nth-last-of-type(1):nth-child(even)) {
+    border-radius: 0 1.75rem 0 0;
+  }
 }

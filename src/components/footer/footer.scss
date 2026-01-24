@@ -3,4 +3,15 @@
 .footer-container {
   padding: 1rem;
   background-color: $secondary-background;
+
+  &:nth-child(even) {
+    background-color: $secondary-background;
+    border-radius: 0;
+  }
+
+  &:last-of-type {
+    p {
+      color: $tertiary;
+    }
+  }
 }
