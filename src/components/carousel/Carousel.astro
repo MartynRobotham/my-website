@@ -1,21 +1,30 @@
 ---
 import "./carousel.scss";
 
-const {slides} = Astro.props;
+interface Props {
+    slides: Array<{
+        title: string;
+        description: string;
+        link?: string;
+    }>;
+    carouselId: string;
+}
+
+const {slides, carouselId} = Astro.props;
 
 ---
 
 <div class="slider">
     <div class="slides">
-        {slides.map((num: number) => (
-                <div id={`slide-${num}`}>
-                    {num}
+        {slides.map(({title, description, link}, i) => () => (
+                <div id={`slide-${carouselId}-${i}`}>
+                    {description}
                 </div>
         ))}
     </div>
 
-    {slides.map((num: number) => (
-            <a href={`#slide-${num}`}>{num}</a>
+    {slides.map((_, i) => (
+            <a href={`#slide-${carouselId}-${i + 1}`}>{i + 1}</a>
     ))}
 
 </div>

@@ -1,8 +1,35 @@
 ---
 import "./experience.scss";
 import Carousel from "../carousel/Carousel.astro";
-const slides = [1, 2, 3, 4, 5];
-
+const slides = [
+    {
+        title: 'Experian',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'ATS Global - Atlas',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    }, {
+        title: 'Gnatta',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'Orisec',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'RightIndem',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'See Tickets',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+        title: 'Utiltywise',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    }
+];
 ---
 
-<Carousel slides={slides} />
+<Carousel slides={slides} carouselId={'experience'}/>

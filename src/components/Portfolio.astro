@@ -1,6 +1,10 @@
 ---
 import Carousel from "./carousel/Carousel.astro";
-const slides = [1];
+const slides = [{
+    title: 'Blood donation project',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    link: 'www.google.com'
+}];
 ---
 
-<Carousel slides={slides} />
+<Carousel slides={slides} carouselId={'portfolio'}/>

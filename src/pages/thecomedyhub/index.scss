@@ -1,0 +1,22 @@
+.video-grid {
+  display: grid;
+  /* Mobile first: 1 column */
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Desktop: 2 columns side by side */
+@media (min-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.video-grid p {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
