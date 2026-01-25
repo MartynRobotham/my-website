@@ -31,7 +31,6 @@
   padding-left: 0;
   padding-right: 0;
 
-  /* Optional: Ensures it stays isolated from other elements */
   display: block;
   clear: both;
   box-sizing: border-box;
@@ -42,4 +41,9 @@
     margin-block-end: 0;
   }
 
+}
+
+.hidden {
+  color: $secondary !important;
+  text-decoration: none;
 }
