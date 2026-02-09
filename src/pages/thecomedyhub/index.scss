@@ -1,9 +1,6 @@
 .video-grid {
-  display: grid;
-  /* Mobile first: 1 column */
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -11,7 +8,11 @@
 /* Desktop: 2 columns side by side */
 @media (min-width: 768px) {
   .video-grid {
-    grid-template-columns: 1fr 1fr;
+    div {
+      flex-basis: 45%;
+      flex-grow: 1;
+      padding: 0.5rem;
+    }
   }
 }
 
