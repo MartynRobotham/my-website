@@ -2,10 +2,15 @@
 import "./contact.scss";
 import Image from "astro/components/Image.astro";
 import gitHubImage from "../../../public/assets/logos/github/GitHub_Invertocat_White.svg"
+import linkedInImage from "../../../public/assets/logos/linkedin-bug-white.png"
 ---
 <div class="contact-container">
     <a class="contact-anchor" href="https://github.com/MartynRobotham">
         <Image src={gitHubImage} alt="Github Logo" width={36} height={36} />
         Github
+    </a>
+    <a class="contact-anchor" href="https://www.linkedin.com/in/martyn-robotham-21617a87/">
+        <Image src={linkedInImage} alt="LinkedIn Logo" width={36} height={36} />
+        LinkedIn
     </a>
 </div>
