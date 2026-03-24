@@ -34,6 +34,21 @@ section {
     background-color: $secondary-background;
     color: $tertiary;
     border-radius: 0 1.75rem 0 1.75rem;
+    // TODO: Need to resolve issue of header no top blend, footer no bottom and test
+    //-webkit-mask-image: linear-gradient(
+    //                to bottom,
+    //                transparent,
+    //                black 14%,
+    //                black 86%,
+    //                transparent
+    //);
+    //mask-image: linear-gradient(
+    //                to bottom,
+    //                transparent,
+    //                black 14%,
+    //                black 86%,
+    //                transparent
+    //);
 
     a {
       color: $tertiary;
