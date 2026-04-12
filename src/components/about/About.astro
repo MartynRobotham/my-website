@@ -1,6 +1,12 @@
 ---
-
+import Image from "astro/components/Image.astro";
+import headshot from "../../assets/headshot.jpg";
+import "./about.scss";
 ---
+
+<div class="headshot-wrap">
+  <Image alt="A headshot photograph of myself" src={headshot} class="headshot" />
+</div>
 
 <p>I am an experienced application and web developer with a specialization in front-end development. Additionally, I possess the skills to work full-stack, utilizing .NET frameworks since 2015 with a strong focus on React, Angular, and Progressive Web Applications (PWA). I have successfully contributed to building customer portals and customer-facing platforms, aiding in problem-solving and helping businesses achieve their goals.</p>
 <p>My proficiency extends to various data storage and retrieval technologies such as SQL, Mongo, GraphQL, and DynamoDB, which I have utilized in the development of web applications.</p>

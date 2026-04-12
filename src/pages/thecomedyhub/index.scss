@@ -2,11 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
+  justify-content: center;
   margin: 0 auto;
 }
 
 /* Desktop: 2 columns side by side */
-@media (min-width: 768px) {
+@media (min-width: 650px) {
   .video-grid {
     div {
       flex-basis: 45%;
