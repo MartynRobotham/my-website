@@ -21,8 +21,8 @@ export default defineConfig({
         short_name: 'App',
         start_url: '/',
         display: 'standalone',
-        background_color: '#FFE4F1',
-        theme_color: '#FFE4F1',
+        background_color: '#2A2A2A',
+        theme_color: '#2A2A2A',
         icons: [
           {
             src: 'assets/favicon/android-chrome-192x192.png',
