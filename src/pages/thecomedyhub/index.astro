@@ -1,56 +1,8 @@
 ---
 import "./index.scss";
 import Layout from "../../layouts/Layout.astro";
+import {gigList} from "@/data/gig-list.ts";
 
-const items = [
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/IbSlNdlzHA0",
-    title: "Lamb Comedy - 7th April 2026",
-    caption: "Lamb Comedy - 7th April 2026",
-    height: 500,
-  },
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/Faqku80pjjs",
-    title: "Lamb Comedy - 25th March 2026",
-    caption: "Lamb Comedy - 25th March 2026",
-    height: 500,
-  },
-  {
-    type: "audio",
-    href: "/audio/st-ives-corn-exchange.m4a",
-    label: "St Ives Corn Exchange (21st March) - Listen to the audio",
-  },
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/9W1eq3XLv5E",
-    title: "Carlton Tavern - 11th March 2026",
-    caption: "Carlton Tavern - 11th March 2026",
-    height: 500,
-  },
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/g6bLpiatZ7M",
-    title: "Lamb Comedy - 3rd February 2026",
-    caption: "Lamb Comedy Club - 4th February 2026",
-    height: 500,
-  },
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/JDy8HqO_kGs?si=18T2tbtxD1ZvnDBk",
-    title: "Ultra - 21st December 2025 alternate",
-    caption: "Ultra - 21st December 2025 (Alternate)",
-    height: 315,
-  },
-  {
-    type: "video",
-    src: "https://www.youtube.com/embed/PTA4TUzhksM?si=wR-TQuJL_uBiNIWs",
-    title: "Ultra - 21st December 2025",
-    caption: "Ultra - 21st December 2025",
-    height: 315,
-  },
-];
 ---
 
 <Layout>
@@ -58,7 +10,7 @@ const items = [
     <h1>Welcome to my comedy hub - a collection of videos of some recent performances</h1>
 
     <div class="video-grid">
-      {items.map((item) => (
+      {gigList.map((item) => (
         item.type === "video" ? (
           <div>
             <iframe
@@ -70,7 +22,7 @@ const items = [
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             />
-            <p>{item.caption}</p>
+            <p>{item.title}</p>
           </div>
         ) : (
           <div>
