@@ -6,6 +6,21 @@ const video = (overrides: { src: string; title: string; height?: number; }) => (
 
 export const gigList = [
     video({
+        src: "https://www.youtube.com/embed/1FA1FQNPv9g",
+        title: "Barnsley - Honeywell Inn - 1st September 2026",
+        height: 315,
+    }),
+    {
+        type: "audio",
+        href: "/audio/holly-bush.m4a",
+        label: "Holly Bush (27th August) - Listen to the audio",
+    },
+    video({
+        src: "https://www.youtube.com/embed/9sg0S5Zf-fg",
+        title: "Nottingham - FunnySods - 26th August 2026",
+        height: 315,
+    }),
+    video({
         src: "https://www.youtube.com/embed/JlBqoyLaqpc",
         title: "Nottingham - SummitsUp - 24th July 2026",
         height: 315,
