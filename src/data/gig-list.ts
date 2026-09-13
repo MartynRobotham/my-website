@@ -43,6 +43,10 @@ export const gigList = [
         title: "Carlton Tavern - 11th March 2026",
     }),
     video({
+        src: "https://www.youtube.com/embed/lVaAzgW1qgY",
+        title: "Creatures comedy - 22nd February 2026",
+    }),
+    video({
         src: "https://www.youtube.com/embed/g6bLpiatZ7M",
         title: "Lamb Comedy - 3rd February 2026",
     }),
